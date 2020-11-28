@@ -20,7 +20,12 @@ def main():
     GAL_M = math.ceil(LiF  / G)
     GAL_MS = GAL_M * GS
     SM = GAL_MS + LAT_MS
-    print (f"O valor gasto comprando apenas latas é de {LATS}.\nSerão necessárias {LAT} latas.\nO valor gasto comprando apenas galões é de {GALS}.\nSerão necessários {GAL}  galões.\nO valor gasto comprando de forma que gere a menor quantidade de desperdício é de {SM}\nSerão necessárias {LAT_M} latas e {GAL_M} galões.")
+    print (f"O valor gasto comprando apenas latas é de R$ {LATS:.2f}.")
+    print (f"Serão necessárias {LAT} latas.")
+    print (f"O valor gasto comprando apenas galões é de R$ {GALS:.2f}.")
+    print (f"Serão necessários {GAL} galões.")
+    print (f"O valor gasto comprando de forma que gere a menor quantidade de desperdício é de R$ {SM:.2f}.")
+    print (f"Serão necessárias {LAT_M} latas e {GAL_M} galões.")
 
 
 if __name__ == '__main__':
